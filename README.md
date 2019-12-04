@@ -2,8 +2,6 @@
 
 Repository contain scripts to reproduce results in the paper as below:
 
-
-
 > Danang Crysnanto and Hubert Pausch.  Sequence read mapping and variant discovery from breed-specific augmented references in cattle. *Biorxiv*
 
 ---
@@ -25,6 +23,8 @@ Our results demonstrate that with careful variant prioritization, mapping to the
 ----
 
 The accompanying raw data for analysis is available in Zenodo, download and unzip the files. All rawa data is available in `data` folder after unzipping. 
+
+![Illustration of method](methods_fig.png)
 
 
 
