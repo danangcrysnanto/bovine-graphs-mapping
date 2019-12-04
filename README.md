@@ -53,10 +53,10 @@ However, final results were available in `result` folder  and running only the d
 
 ### Contributor:
 
-[Danang Crysnanto](mailto:danang.crysnanto@usys.ethz.ch) 
-[Animal Genomics ETH Zurich](http://www.ag.ethz.ch/)     
+[Danang Crysnanto](mailto:danang.crysnanto@usys.ethz.ch)  
+[Animal Genomics ETH Zurich](http://www.ag.ethz.ch/)     	
 
-Email:danang.crysnanto@usys.ethz.ch 
+Email:danang.crysnanto@usys.ethz.ch   
 Personal web: [danangcrysnanto.github.io](https://danangcrysnanto.github.io/) 
 
 

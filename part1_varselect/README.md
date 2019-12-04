@@ -20,7 +20,7 @@ Make sure that the program are in the `$PATH`
 
 The analysis can be reproduced as follow:
 
-**1. Simulated reads from each breeds**
+#### 1.Simulated reads from each breeds
 
 We simulated 10 million reads from haplotypes of chromsome 25 from a selected single animals from each breeds . The scripts is in `scripts/sim_reads.sh`, which need reference genome in `../data/utilities/UCD12.fa`, and the phased vcf from a single animal in each breed is available in`../data/part1/vcf_sim`. 
 
@@ -43,7 +43,9 @@ This will generate some files as below:
 
 We have already provided the simulated reads in 4 breeds in `../data/part1/reads_sim`. 
 
-**2. Filtered variants according to allele frequency in breeds and construct graphs from it. Then mapping simulated reads from each breed to the all genome graphs constructed from the same breeds**
+#### 2. Graph construction and mapping
+
+Filtered variants according to allele frequency in breeds and construct graphs from it. Then mapping simulated reads from each breed to the all genome graphs constructed from the same breeds
 
 Next, we need to create a vcf files with variants filtered according to the minimum allele frequency. We used allele frequency threshold from 0-0.1 with 0.01 increment and 0.1-1.0 with 0.1 increment,  20 interval for each breeds. 
 
@@ -61,9 +63,9 @@ Where threshold is between `0,0.01,0.02, ... ,0.1,0.2, ... ,1.0`.
 
 This will produce many `compare.gz` files as  `{breeds}_{threshold}_${mapping_mode}.compare.gz`., where column 1,2,3,  and 10 are read name, mapping status (0:incorrect, 1:correct), mapping quality, mapping score. We used second column to calculate the proportion of mapping error. Graph in `vg`format, all three graph indexes, `xg`,`gcsa`, and `gbwt`index is available in `graph` folder after finished. 
 
-**3 Data analysis and plotting **
+#### 3 Data analysis and plotting 
 
-The data analysis and plotting is available interactively through Jupyter notebook in `analysis/part1_varselect.ipynb`
+Data analysis and plotting is available interactively through Jupyter notebook in [`analysis/part1_varselect.ipynb`](analysis/part1_varselect.ipynb)	
 
 
 
