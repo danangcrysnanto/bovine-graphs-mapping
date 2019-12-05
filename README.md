@@ -32,7 +32,7 @@ The paper contains four main parts, please go to respective pages for more detai
 
 [Part1](part1_varselect): Variant prioritization
 
-Part2 : Breeds graphs
+[Part2](part2_breedgraphs) : Breeds graphs
 
 Part3: Consensus genome
 
