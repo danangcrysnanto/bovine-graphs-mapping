@@ -34,7 +34,7 @@ The paper contains four main parts, please go to respective pages for more detai
 
 [Part2](part2_breedgraphs) : Breeds graphs
 
-Part3: Consensus genome
+[Part3](part3_consensusgenome): Consensus genome
 
 Part4: Variant genotyping
 
