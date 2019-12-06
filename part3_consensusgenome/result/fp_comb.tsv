@@ -1,0 +1,17 @@
+mode	graph	FP
+pe	BSW-graph_vg	0.0731
+pe	unmodified_bwa	0.107839766006206
+pe	major-BSW_bwa	0.0903142831058794
+pe	major-BSW_vg	0.0850801956844501
+pe	major-pan_bwa	0.0953031477036801
+pe	major-pan_vg	0.0886402038724689
+pe	unmodified_vg	0.09658
+se	BSW-graph_vg	0.31725
+se	unmodified_bwa	0.523859499944205
+se	major-BSW_bwa	0.420363054728192
+se	major-BSW_vg	0.411510946475177
+se	major-pan_bwa	0.447377386188547
+se	major-pan_vg	0.43848100850632
+se	unmodified_vg	0.51364
+pe      BSW-graph_bwa   -1
+se      BSW-graph_bwa   -1
