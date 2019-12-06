@@ -52,7 +52,7 @@ We modified the original reference with major variants defined in the vcf file w
 
 #### 2. Read mapping of the consensus genome
 
-We mapped the consensus linear genome with `bwa` and `vg` (by first creating an empty graphs without variations ). Scripts `consensus_liftover.sh` will create consensus genome, perform liftover, mapping consensus genome to `bwa` and to consensus graphs with `vg`. 
+We mapped Brown swiss simulated reads from [part1](https://github.com/danangcrysnanto/bovine-graphs-mapping/tree/master/part1_varselect) to the consensus linear genome with `bwa` and `vg` (by first creating an empty graphs without variations ). Scripts `consensus_liftover.sh` will create consensus genome, perform liftover, mapping consensus genome to `bwa` and to consensus graphs with `vg`. 
 
 ```bash
 scripts/consensus_liftover.sh ${consensus_type}
