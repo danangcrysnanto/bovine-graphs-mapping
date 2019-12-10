@@ -1,0 +1,15 @@
+resources:
+    # the location of the reference genome
+    reference: ../../../data/utilities/UCD12.fa
+    # temporary directory during graph indexing
+    # make sure there are at least 2TB empty space
+    tempdir: /path/to/tempdir
+    # location of vcf files.., named as BSW_${chr}.vcf.gz
+    vcfdir: ../../../data/vcf_construct
+    # location of the output graphs and index file
+    outdir: /path/to/desired_outputdirectory
+tools:
+    # path to vg installation
+    vg: /path/to/vg_installation
+#chromosome to include in graphs, should be in order
+chr_list: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]

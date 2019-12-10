@@ -1,0 +1,18 @@
+resources:
+    # the location of the fastq directory
+    # noted that samples named as ${anims}_{1,2}.fastq.gz
+    fastqdir: ../../../data/utilities/UCD12.fa
+    # temporary directory during graph mapping and bam sorting
+    tempdir: /path/to/tempdir
+    # location of vcf files.., named as BSW_${chr}.vcf.gz
+    base_graph: ../../../data/vcf_construct
+    # location of the output gam files and surjected bam files
+    outdir: /path/to/desired_outputdirectory
+tools:
+    # path to vg installation
+    vg: /path/to/vg_installation
+    fastp: /path/to/fastp_installation
+    samtools: /path/to/samtools_installation
+#how many reads to split for parallelizing mapping
+# 80 M is about 1X of bovine coverage
+split_size: 80000000

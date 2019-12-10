@@ -36,7 +36,7 @@ The paper contains four main parts, please go to respective pages for more detai
 
 [Part3](part3_consensusgenome): Consensus genome
 
-Part4: Variant genotyping
+[Part4](part4_variantgenotyping): Variant genotyping
 
 
 
