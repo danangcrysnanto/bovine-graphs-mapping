@@ -22,7 +22,7 @@ Our results demonstrate that with careful variant prioritization, mapping to the
 
 ----
 
-The accompanying raw data for analysis is available in Zenodo, download and unzip the files. All rawa data is available in `data` folder after unzipping. 
+
 
 ![Illustration of method](methods_fig.png)
 
@@ -30,24 +30,29 @@ The accompanying raw data for analysis is available in Zenodo, download and unzi
 
 The paper contains four main parts, please go to respective pages for more details:
 
-[Part1](part1_varselect): Variant prioritization
+[Part1](part1_varselect): Variant prioritization [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part1_varselect/analysis/part1_varselect.ipynb)
 
-[Part2](part2_breedgraphs) : Breeds graphs
+[Part2](part2_breedgraphs) : Breeds graphs [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part2_breedgraphs/analysis/part2_breedgraphs.ipynb)
 
-[Part3](part3_consensusgenome): Consensus genome
+[Part3](part3_consensusgenome): Consensus genome [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part3_consensusgenome/analysis/part3_consensusgenome.ipynb)
 
-[Part4](part4_variantgenotyping): Variant genotyping
+[Part4](part4_variantgenotyping): Variant genotyping [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part4_variantgenotyping/analysis/part4_variantgenotyping.ipynb)
 
 
 
 *Note*: 
 
 We use ETH Zurich Leonhard Open Computing cluster, to parallelize all steps. Reproducing in local machine will not be reasonable in terms of memory and computing time. 
-However, final results were available in `result` folder  and running only the data analysis presented in Jupyter notebook can be done in local/dekstop computer. 
+
+However, final results were available in `result` folder  and we have setup integration with `binder`, all analysis can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
+
+The accompanying raw data for analysis from scratch is available in Zenodo, download and untar-unzip the files. All raw data is available in `data` folder after unzipping. 
+
+```
+tar -zxvf data.tar.gz data
+```
 
 
-
-*This repository is still in very active development, so not all results can be reproduced at this point*
 
 ----
 
