@@ -8,17 +8,21 @@ Repository contain scripts to reproduce results in the paper as below:
 
 ### Abstract
 
-**Introduction**
+**Background**
 
-Current bovine genome reference is derived from single highly inbred Hereford cattle, which insufficiently represents sequence variants across diverse range of breeds. The lack of diversity in the linear genome causes reference allele bias, i.e., DNA fragments that contain reference alleles are more likely to align correctly than those containing non-reference alleles. Variation-aware genome graphs may address problems arising from the inadequate representation of the current references.
+The bovine reference genome is represented as a linear sequence that was created from a single animal of the Hereford cattle breed. Lack of diversity is a drawback of linear references that causes reference allele bias. High nucleotide diversity and the separation of individuals by hundreds of breeds make cattle uniquely suited to investigate the optimal composition of variation-aware references.
+
+
 
 **Results**
 
-Here we used the existing bovine reference (ARS-UCD1.2) as backbone and added sites of variation that were filtered according to dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct multi- and breed-specific genome graphs using *vg toolkit*. Using both simulated and real short-read data, we showed that mapping to graph genome outperform mapping to the linear genome, even when the reference bases adjusted to the most frequent allele in the population. However, variant prioritization is required to reach high level of accuracy (e.g., adding random and rare variants tend to compromise graph read mapping). Additionally, even though that the best mapping achieved with breed-specific genome graphs, mapping to the pangenome graphs with combined variants are almost as accurate. Finally, we showed that mapping to the informative graph genomes eliminate reference allele bias across all variant length, including long indels.
+We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filtered for allele frequency in dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct breed-specific and pan-genome reference graphs using *vg toolkit*. We find that read mapping is more accurate to variation-aware than linear references if pre-selected variants were used for graph construction. Graphs that contain random variants don’t improve read mapping accuracy over the linear reference sequence. Breed-specific augmented graphs and pan-genome graphs enable almost similar accuracy improvements over the linear reference. We construct a whole-genome graph that contains the Hereford-based reference sequence and 14 million variants filtered for allele frequency in the Brown Swiss cattle breed. We show that our novel variation-aware reference facilitates accurate and unbiased genotyping of sequence variants. 
 
- **Conclusion**:
 
-Our results demonstrate that with careful variant prioritization, mapping to the graph genomes is superior than linear genome. We anticipated that construction of more comprehensive genome graphs from expanded catalogues of bovine sequence variants and multiple reference-quality assemblies across wide-range of cattle breeds may further improve mapping accuracy. 
+
+**Conclusions**
+
+We developed a variation-aware reference graph in an agricultural animal using a set of variants that were filtered for allele frequency: https://link.to.zenodo. The novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work may serve as a guideline to establish variation-aware reference structures in species with high genetic diversity and many sub-populations.
 
 ----
 
@@ -42,14 +46,14 @@ The paper contains four main parts, please go to respective pages for more detai
 
 *Note*: 
 
-We use ETH Zurich Leonhard Open Computing cluster, to parallelize all steps. Reproducing in local machine will not be reasonable in terms of memory and computing time. 
+The data analyses utilized the ETH Zurich Leonhard Open High Performance Computing because of the high computing resources requirement. Reproducing in a local (dekstop) machine will not be possible in terms of memory and computing time. 
 
-However, final results were available in `result` folder  and we have setup integration with `binder`, all analysis can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
+However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
 
-The accompanying raw data for analysis from scratch is available in Zenodo, download and untar-unzip the files. All raw data is available in `data` folder after unzipping. 
+The accompanying raw data for analyses are available via Zenodo, please download and untar-unzip the files. All raw data is available in `data` folder after unzipping. 
 
 ```
-tar -zxvf data.tar.gz data
+tar -zxvf data.tar.gz
 ```
 
 
@@ -62,6 +66,5 @@ tar -zxvf data.tar.gz data
 [Animal Genomics ETH Zurich](http://www.ag.ethz.ch/)     	
 
 Email:danang.crysnanto@usys.ethz.ch   
-Personal web: [danangcrysnanto.github.io](https://danangcrysnanto.github.io/) 
 
 
