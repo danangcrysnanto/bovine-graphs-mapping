@@ -1,6 +1,6 @@
 ## Sequence read mapping and variant discovery from breed-specific augmented references in cattle
 
-Repository contain scripts to reproduce results in the paper as below:
+Repository contains scripts to reproduce results in the paper as below:
 
 > Danang Crysnanto and Hubert Pausch.  Sequence read mapping and variant discovery from breed-specific augmented references in cattle. *Biorxiv*
 
@@ -50,7 +50,7 @@ The data analyses utilized the ETH Zurich Leonhard Open High Performance Computi
 
 However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
 
-The accompanying raw data for analyses are available via Zenodo, please download and untar-unzip the files. All raw data is available in `data` folder after unzipping. 
+The accompanying raw data for analyses are available via Zenodo, please download and untar-unzip the files. All raw data are available in `data` folder after unzipping. 
 
 ```
 tar -zxvf data.tar.gz
@@ -65,6 +65,9 @@ tar -zxvf data.tar.gz
 [Danang Crysnanto](mailto:danang.crysnanto@usys.ethz.ch)  
 [Animal Genomics ETH Zurich](http://www.ag.ethz.ch/)     	
 
-Email:danang.crysnanto@usys.ethz.ch   
+Email: danang.crysnanto@usys.ethz.ch   
+
+License: [MIT](LICENSE)
+
 
 
