@@ -1,8 +1,8 @@
-## Sequence read mapping and variant discovery from breed-specific augmented references in cattle
+## **Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs**
 
 Repository contains scripts to reproduce results in the paper as below:
 
-> Danang Crysnanto and Hubert Pausch.  Sequence read mapping and variant discovery from breed-specific augmented references in cattle. *Biorxiv*
+> Danang Crysnanto and Hubert Pausch. Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs. *Biorxiv*
 
 ---
 
@@ -10,19 +10,19 @@ Repository contains scripts to reproduce results in the paper as below:
 
 **Background**
 
-The bovine reference genome is represented as a linear sequence that was created from a single animal of the Hereford cattle breed. Lack of diversity is a drawback of linear references that causes reference allele bias. High nucleotide diversity and the separation of individuals by hundreds of breeds make cattle uniquely suited to investigate the optimal composition of variation-aware references.
+The bovine linear reference sequence was assembled from a DNA sample of a Hereford cow. It lacks diversity because it does not contain allelic variation. Lack of diversity is a drawback of linear references that results in reference allele bias. High nucleotide diversity and the separation of individuals by hundreds of breeds make cattle uniquely suited to investigate the optimal composition of variation-aware references.
 
-
+ 
 
 **Results**
 
-We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filtered for allele frequency in dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct breed-specific and pan-genome reference graphs using *vg toolkit*. We find that read mapping is more accurate to variation-aware than linear references if pre-selected variants were used for graph construction. Graphs that contain random variants don’t improve read mapping accuracy over the linear reference sequence. Breed-specific augmented graphs and pan-genome graphs enable almost similar accuracy improvements over the linear reference. We construct a whole-genome graph that contains the Hereford-based reference sequence and 14 million variants filtered for allele frequency in the Brown Swiss cattle breed. We show that our novel variation-aware reference facilitates accurate and unbiased genotyping of sequence variants. 
+We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filtered for allele frequency in dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct breed-specific and pan-genome reference graphs using the *vg toolkit*. We find that read mapping is more accurate to variation-aware than linear references if pre-selected variants are used for graph construction. Graphs that contain random variants don’t improve read mapping over the linear reference sequence. Breed-specific augmented graphs and pan-genome graphs enable almost similar accuracy improvements over the linear reference. We construct a whole-genome graph that contains the Hereford-based reference sequence and 14 million variants filtered for allele frequency in the Brown Swiss cattle breed. We show that our novel variation-aware reference facilitates accurate read mapping and unbiased sequence variant genotyping. 
 
 
 
 **Conclusions**
 
-We developed a variation-aware reference graph in an agricultural animal using a set of variants that were filtered for allele frequency: https://link.to.zenodo. The novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work may serve as a guideline to establish variation-aware reference structures in species with high genetic diversity and many sub-populations.
+We developed the first variation-aware reference graph for an agricultural animal using variants that were filtered for allele frequency: https://doi.org/10.5281/zenodo.3570312. The novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work may serve as a guideline to establish variation-aware reference structures in species with high genetic diversity and many sub-populations.
 
 ----
 
