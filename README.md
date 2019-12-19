@@ -50,7 +50,7 @@ The data analyses utilized the ETH Zurich Leonhard Open High Performance Computi
 
 However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
 
-The accompanying raw data for analyses are available via Zenodo, please download and untar-unzip the files. All raw data are available in `data` folder after unzipping. 
+The accompanying raw data for analyses are available via [Zenodo](https://doi.org/10.5281/zenodo.3570312), please download and untar-unzip the files. All raw data are available in `data` folder after unzipping. 
 
 ```
 tar -zxvf data.tar.gz
