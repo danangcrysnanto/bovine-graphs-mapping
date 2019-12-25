@@ -1,4 +1,6 @@
-## **Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs**
+## **Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs** [![DOI](https://zenodo.org/badge/225894822.svg)](https://zenodo.org/badge/latestdoi/225894822)
+
+
 
 Repository contains scripts to reproduce results in the paper as below:
 
@@ -42,8 +44,6 @@ The paper contains four main parts, please go to respective pages for more detai
 
 [Part4](part4_variantgenotyping): Variant genotyping [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part4_variantgenotyping/analysis/part4_variantgenotyping.ipynb)
 
-
-
 *Note*: 
 
 The data analyses utilized the ETH Zurich Leonhard Open High Performance Computing because of the high computing resources requirement. Reproducing in a local (dekstop) machine will not be possible in terms of memory and computing time. 
@@ -56,7 +56,11 @@ The accompanying raw data for analyses are available via [Zenodo](https://doi.or
 tar -zxvf data.tar.gz
 ```
 
+Archived versions:
 
+Code: [![DOI](https://zenodo.org/badge/225894822.svg)](https://zenodo.org/badge/latestdoi/225894822)
+
+Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3570312.svg)](https://doi.org/10.5281/zenodo.3570312)
 
 ----
 
