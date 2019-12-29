@@ -2,7 +2,7 @@
 
 
 
-Repository contains scripts to reproduce results in the paper as below:
+Repository contains scripts to reproduce results of the paper as below:
 
 > Danang Crysnanto and Hubert Pausch. Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs. *Biorxiv*
 
@@ -48,7 +48,7 @@ The paper contains four main parts, please go to respective pages for more detai
 
 The data analyses utilized the ETH Zurich Leonhard Open High Performance Computing because of the high computing resources requirement. Reproducing in a local (dekstop) machine will not be possible in terms of memory and computing time. 
 
-However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `open in colab` (recommended for quick access) or  `launch binder` button as above, also possible in local dekstop after `cloning` the repo. 
+However, final results are available in `result` folder  and we have setup integration with publicly available cloud computing notebook, final data analyses can be repeated using `open in colab` (recommended because of the quick access) or  `launch binder` button as above, also possible in local dekstop after `cloning` the repo. 
 
 The accompanying raw data for analyses are available via [Zenodo](https://doi.org/10.5281/zenodo.3570312), please download and untar-unzip the files. All raw data are available in `data` folder after unzipping. 
 
