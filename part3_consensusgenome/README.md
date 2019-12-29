@@ -62,7 +62,7 @@ The scripts will generate modified consensus genomes as `25_anims_major-BSW.fa` 
 
 #### 3. Data Analysis
 
-The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part3_consensusgenome.ipynb`](analysis/part3_consensusgenome.ipynb) or via `binder` [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part3_consensusgenome/analysis/part3_consensusgenome.ipynb).
+The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part3_consensusgenome.ipynb`](analysis/part3_consensusgenome.ipynb) or via `Google colab`  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part3_consensusgenome/analysis/part3_consensusgenome_colab.ipynb).
 	
 
 

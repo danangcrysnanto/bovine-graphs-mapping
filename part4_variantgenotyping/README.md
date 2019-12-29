@@ -75,7 +75,7 @@ The pipeline (see below for example) first will use `fastp` to trim and filter l
 
 #### 3. Data Analysis
 
-The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part4_variantgenotyping.ipynb`](analysis/part4_variantgenotyping.ipynb) or via `binder` [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part4_variantgenotyping/analysis/part4_variantgenotyping.ipynb).
+The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part4_variantgenotyping.ipynb`](analysis/part4_variantgenotyping.ipynb) or via `Google colab` [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part4_variantgenotyping/analysis/part4_variantgenotyping_colab.ipynb) .
 
 
 

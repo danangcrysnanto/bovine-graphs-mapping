@@ -68,7 +68,7 @@ Graphs are stored in `graph` folder, and mapped read files are available in `map
 
 #### 3. Data analysis
 
-The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part2_breedgraphs.ipynb`](analysis/part2_breedgraphs.ipynb)	or via `binder`  [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part2_breedgraphs/analysis/part2_breedgraphs.ipynb). 
+The analysis presented in the paper can be followed interactively through Jupyter notebook in [`analysis/part2_breedgraphs.ipynb`](analysis/part2_breedgraphs.ipynb)	or via `Google colab`  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part2_breedgraphs/analysis/part2_breedgraphs_colab.ipynb). 
 
 
 

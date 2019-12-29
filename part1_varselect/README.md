@@ -65,7 +65,7 @@ This will produce many `compare.gz` files as  `{breeds}_{threshold}_${mapping_mo
 
 #### 3. Data analysis
 
-Data analysis can be followed interactively through Jupyter notebook in [`analysis/part1_varselect.ipynb`](analysis/part1_varselect.ipynb)	or via `binder` [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part1_varselect/analysis/part1_varselect.ipynb).
+Data analysis can be followed interactively through Jupyter notebook in [`analysis/part1_varselect.ipynb`](analysis/part1_varselect.ipynb) or via `Google colab`   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part1_varselect/analysis/part1_varselect_colab.ipynb).
 
 
 

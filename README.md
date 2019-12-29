@@ -36,19 +36,19 @@ We developed the first variation-aware reference graph for an agricultural anima
 
 The paper contains four main parts, please go to respective pages for more details:
 
-[Part1](part1_varselect): Variant prioritization [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part1_varselect/analysis/part1_varselect.ipynb)
+[Part1](part1_varselect): Variant prioritization   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part1_varselect/analysis/part1_varselect_colab.ipynb) [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part1_varselect/analysis/part1_varselect.ipynb)
 
-[Part2](part2_breedgraphs) : Breeds graphs [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part2_breedgraphs/analysis/part2_breedgraphs.ipynb)
+[Part2](part2_breedgraphs) : Breeds graphs             [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part2_breedgraphs/analysis/part2_breedgraphs_colab.ipynb) [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part2_breedgraphs/analysis/part2_breedgraphs.ipynb)
 
-[Part3](part3_consensusgenome): Consensus genome [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part3_consensusgenome/analysis/part3_consensusgenome.ipynb)
+[Part3](part3_consensusgenome): Consensus genome     [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part3_consensusgenome/analysis/part3_consensusgenome_colab.ipynb) [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part3_consensusgenome/analysis/part3_consensusgenome.ipynb)
 
-[Part4](part4_variantgenotyping): Variant genotyping [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part4_variantgenotyping/analysis/part4_variantgenotyping.ipynb)
+[Part4](part4_variantgenotyping): Variant genotyping      [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part4_variantgenotyping/analysis/part4_variantgenotyping_colab.ipynb) [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danangcrysnanto/bovine-graphs-mapping/master?filepath=part4_variantgenotyping/analysis/part4_variantgenotyping.ipynb)
 
 *Note*: 
 
 The data analyses utilized the ETH Zurich Leonhard Open High Performance Computing because of the high computing resources requirement. Reproducing in a local (dekstop) machine will not be possible in terms of memory and computing time. 
 
-However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `launch binder` button as above (also possible in local dekstop after `cloning` the repo)
+However, final results are available in `result` folder  and we have setup integration with `binder`, final data analyses can be repeated using `open in colab` (recommended for quick access) or  `launch binder` button as above, also possible in local dekstop after `cloning` the repo. 
 
 The accompanying raw data for analyses are available via [Zenodo](https://doi.org/10.5281/zenodo.3570312), please download and untar-unzip the files. All raw data are available in `data` folder after unzipping. 
 
