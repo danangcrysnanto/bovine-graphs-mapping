@@ -1,4 +1,4 @@
-## **Sequence read mapping and variant discovery from bovine breed-specific augmented reference graphs** [![DOI](https://zenodo.org/badge/225894822.svg)](https://zenodo.org/badge/latestdoi/225894822)
+## **Bovine breed-specific augmented reference graphs facilitate accurate sequence read mapping and unbiased variant discovery** [![DOI](https://zenodo.org/badge/225894822.svg)](https://zenodo.org/badge/latestdoi/225894822)
 
 
 
@@ -12,19 +12,19 @@ Repository contains scripts to reproduce results of the paper as below:
 
 **Background**
 
-The bovine linear reference sequence was assembled from a DNA sample of a Hereford cow. It lacks diversity because it does not contain allelic variation. Lack of diversity is a drawback of linear references that results in reference allele bias. High nucleotide diversity and the separation of individuals by hundreds of breeds make cattle uniquely suited to investigate the optimal composition of variation-aware references.
+The current bovine genomic reference sequence was assembled from the DNA of a Hereford cow. The resulting linear assembly lacks diversity because it does not contain allelic variation. Lack of diversity is a drawback of linear references that causes reference allele bias. High nucleotide diversity and the separation of individuals by hundreds of breeds make cattle ideally suited to investigate the optimal composition of variation-aware references.
 
  
 
 **Results**
 
-We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filtered for allele frequency in dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct breed-specific and pan-genome reference graphs using the *vg toolkit*. We find that read mapping is more accurate to variation-aware than linear references if pre-selected variants are used for graph construction. Graphs that contain random variants don’t improve read mapping over the linear reference sequence. Breed-specific augmented graphs and pan-genome graphs enable almost similar accuracy improvements over the linear reference. We construct a whole-genome graph that contains the Hereford-based reference sequence and 14 million variants filtered for allele frequency in the Brown Swiss cattle breed. We show that our novel variation-aware reference facilitates accurate read mapping and unbiased sequence variant genotyping. 
+We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filtered for allele frequency in dairy (Brown Swiss, Holstein) and dual-purpose (Fleckvieh, Original Braunvieh) cattle breeds to construct either breed-specific or pan-genome reference graphs using the *vg toolkit*. We find that read mapping is more accurate to variation-aware than linear references if pre-selected variants are used to construct the genome graphs. Graphs that contain random variants do not improve read mapping over the linear reference sequence. Breed-specific augmented and pan-genome graphs enable almost similar mapping accuracy improvements over the linear reference. We construct a whole-genome graph that contains the Hereford-based reference sequence and 14 million alleles that have alternate allele frequency greater than 0.03 in the Brown Swiss cattle breed. We show that our novel variation-aware reference facilitates accurate read mapping and unbiased sequence variant genotyping for SNPs and Indels. 
 
 
 
 **Conclusions**
 
-We developed the first variation-aware reference graph for an agricultural animal using variants that were filtered for allele frequency: https://doi.org/10.5281/zenodo.3570312. The novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work may serve as a guideline to establish variation-aware reference structures in species with high genetic diversity and many sub-populations.
+We developed the first variation-aware reference graph for an agricultural animal: [https://doi.org/10.5281/zenodo.3570312. Our novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work is a first step towards the transition from linear to variation-aware reference structures in species with high genetic diversity and many sub-populations.
 
 ----
 
