@@ -67,6 +67,13 @@ This will produce many `compare.gz` files as  `{breeds}_{threshold}_${mapping_mo
 
 Data analysis can be followed interactively through Jupyter notebook in [`analysis/part1_varselect.ipynb`](analysis/part1_varselect.ipynb) or via `Google colab`   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part1_varselect/analysis/part1_varselect_colab.ipynb).
 
+#### 4. Human graphs analysis
+
+To compare between bovine and human graphs, we repeated the entire procedures as above in four human populations, using phase 3 1000 genome project. The raw and intermediate data are available in [Zenodo](https://doi.org/10.5281/zenodo.3759712).       
+Data analysis can be followed interactively through Jupyter notebook in [`analysis/part1_human_bovine_comparison.ipynb`](analysis/part1_human_bovine_comparison.ipynb) or via `Google colab`   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danangcrysnanto/bovine-graphs-mapping/blob/master/part1_varselect/analysis/part1_human_bovine_comparison.ipynb). 
+
+ 
+
 
 
 
