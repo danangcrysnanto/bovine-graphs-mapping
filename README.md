@@ -24,7 +24,7 @@ We augment the bovine linear reference sequence (ARS-UCD1.2) with variants filte
 
 **Conclusions**
 
-We developed the first variation-aware reference graph for an agricultural animal: https://doi.org/10.5281/zenodo.3570312. Our novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work is a first step towards the transition from linear to variation-aware reference structures in species with high genetic diversity and many sub-populations.
+We developed the first variation-aware reference graph for an agricultural animal: https://doi.org/10.5281/zenodo.3759712. Our novel reference structure improves sequence read mapping and variant genotyping over the linear reference. Our work is a first step towards the transition from linear to variation-aware reference structures in species with high genetic diversity and many sub-populations.
 
 ----
 
