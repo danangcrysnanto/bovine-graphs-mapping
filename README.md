@@ -1,4 +1,4 @@
-## **Bovine breed-specific augmented reference graphs facilitate accurate sequence read mapping and unbiased variant discovery** [![DOI](https://zenodo.org/badge/225894822.svg)](https://zenodo.org/badge/latestdoi/225894822)
+## **Bovine breed-specific augmented reference graphs facilitate accurate sequence read mapping and unbiased variant discovery** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763286.svg)](https://doi.org/10.5281/zenodo.3763286)
 
 
 
@@ -58,9 +58,9 @@ tar -zxvf data.tar.gz
 
 Archived versions:
 
-Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3759712.svg)](https://doi.org/10.5281/zenodo.3759712)
+Code: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3763286.svg)](https://doi.org/10.5281/zenodo.3763286)
 
-Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3570312.svg)](https://doi.org/10.5281/zenodo.3570312)
+Data: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3759712.svg)](https://doi.org/10.5281/zenodo.3759712)
 
 ----
 
